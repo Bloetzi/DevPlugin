@@ -2,7 +2,7 @@ local m = require(script.Parent.Manager)
 local RS = game:GetService("RunService")
 
 if RS:IsRunning() then
-	
+	return
 else
 	while true  do  --30 minutes  
 		task.wait(30*60)
